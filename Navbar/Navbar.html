@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  rel="stylesheet" href="style.css">
+    <title>Navbar</title>
+</head>
+<body>
+<!--navbar-->
+<nav class="Navbar">
+  <div class="logo&title">
+  <img src="logo.jpeg" class="logo">
+    <div class="title">
+  <a class="title" href="/navbar">
+    Navify
+  </a>
+    </div>
+  </div>
+  <div class="menu">
+    <ul class="menuItem">
+      <li><a href="#home" onmouseover="hover(this)" onmouseout="noHover(this)">Home</a></li>
+      <li><a href="#about" onmouseover="hover(this)" onmouseout="noHover(this)">About</a></li>
+      <li><a href="#skills" onmouseover="hover(this)" onmouseout="noHover(this)">Skills</a></li>
+      <li><a href="#contact" onmouseover="hover(this)" onmouseout="noHover(this)">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+<!--home-->
+
+
+<section id="home">
+  <p class="para">Welcome to Navify – The Dynamic Navigation Solution!</p>
+  <p class="para1">Navify is designed to make navigation effortless and seamless, with a modern and flexible design tailored for every user.<BR><BR><BR>THIS IS TASK 01 OF PRODIGY-INFOTECH IN THE DOMAIN OF WEB DEVELOPMENT COMPLETED BY GAJANAN RAJENDRA TONGALE</p>
+</section>
+<!--about-->
+
+
+<section id="about">
+  <h1 class="heading">About</h1>
+  <p class="para">Hello! I am a Computer Science student passionate about web development, Machine Learning, and problem-solving.
+  </p>
+
+</section>
+<!--skills-->
+<section id="skills">
+  <h1 class="heading">Skills</h1>
+  <p class="skills-description">
+    Our team possesses a diverse set of skills to provide the best navigation solutions.
+  </p>
+  <ul id="service">
+    <li style="list-style: none">Web Development</li>
+    <li style="list-style: none">Data Structures and Algorithms</li>
+    <li style="list-style: none">Machine Learning</li>
+    <li style="list-style: none">Artificial Intelligence</li>
+    <li style="list-style: none">Problem Solving</li>
+  </ul>
+</section>
+<!--contact-->
+<section id="contact">
+  <div class="container">
+    <h2 class="contact-heading">Contact Me</h2>
+    <p class="contact-description">
+      I'd love to hear from you! Please fill out the form below to get in touch.
+    </p>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!--footer-->
+<footer>
+  <p id="center">&copy; 2024 Pune India</p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
